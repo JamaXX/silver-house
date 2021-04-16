@@ -1,0 +1,143 @@
+@import "/styles/fonts.css";
+
+/* DEFAULT */
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Roboto Regular";
+}
+
+img {
+    display: block;
+}
+
+.bold_text {
+    font-family: "Roboto Bold";
+}
+
+/* ********************** */
+
+/* Header START */
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1110px;
+    margin: 0 auto;
+}
+
+header img {
+    margin-top: 50px;
+    width: 120px;
+}
+
+header nav ul {
+    display: flex;
+    margin-top: 59px;
+}
+
+header nav ul li {
+    margin-right: 46px;
+}
+
+header nav ul li:last-child {
+    margin-right: 0;
+}
+
+.header__nav-link {
+    color: #bab9b9;
+    font-size: 18px;
+    padding-bottom: 14px;
+}
+
+.header__nav-link:hover {
+    color: #4581b7;
+    border-bottom: 1px solid #4581b7;
+    transition: 300ms;
+}
+
+/* Header END */
+/* ********************** */
+
+/* Header START */
+
+main {
+    width: 1110px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.main__content {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0 30px 0;
+}
+
+.main__content p {
+    font-size: 16px;
+    color: #808080;
+    line-height: 27px;
+}
+
+.main__info {
+    max-width: 730px;
+    width: 100%;
+    background: #f0f0f0;
+}
+
+.main__info h2, .main__contacts h2 {
+    color: #4581b7;
+    font-size: 20px;
+    margin: 50px 0 0 40px;
+}
+
+.main__info p {
+    margin: 24px 95px 67px 40px;
+}
+
+.main__contacts {
+    max-width: 350px;
+    width: 100%;
+    background: #f0f0f0;
+}
+
+.main__contacts p {
+    margin: 24px 54px 48px 40px;
+}
+
+/* Header END */
+/* ********************** */
+
+/* Footer START */
+
+.footer {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+    background: #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer img {
+    margin: 16px 0 14px 40px;
+}
+
+.footer p {
+    text-align: right;
+    margin-right: 41px;
+    color: #808080;
+    line-height: 25px;
+}
+
+.footer__info-num {
+    font-size: 25px;
+}
+
+/* Footer END */
+/* ********************** */
